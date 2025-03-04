@@ -2,6 +2,36 @@
 
 This repository contains scripts for converting `.wav` audio files using `sox`. The scripts are available in `bash` and `fish` shell formats.
 
+## Prerequisites
+
+Ensure you have `sox` installed on your system. You can install `sox` using `homebrew` on macOS or using your package manager on Linux. If you don't have `homebrew` installed, follow these steps:
+
+### Install Homebrew (macOS)
+
+Open your terminal and run the following command:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### Install Sox (macOS)
+
+Once `homebrew` is installed, you can install `sox` by running:
+
+```bash
+brew install sox
+```
+
+### Install Sox (Linux)
+
+On Linux, you can install `sox` using your package manager. For example, on Debian-based systems (like Ubuntu), run:
+
+```bash
+sudo apt-get install sox
+```
+
+Additionally, ensure you have either `bash` or `fish` shell installed on your system to run the respective scripts.
+
 ## Scripts
 
 ### convert.sh
